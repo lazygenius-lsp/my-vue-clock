@@ -1,11 +1,17 @@
 <script setup lang="ts">
+<<<<<<< HEAD
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+=======
+import Clock from './components/Clock.vue'
+import ColorTrailCursor from './components/ColorTrailCursor.vue'
+>>>>>>> 6f5402c (Initial commit)
 </script>
 
 <template>
   <div class="container">
     <Clock />
+<<<<<<< HEAD
   </div>
 </template>
 
@@ -20,6 +26,12 @@ export default defineComponent({
 });
 </script>
 
+=======
+    <ColorTrailCursor />
+  </div>
+</template>
+
+>>>>>>> 6f5402c (Initial commit)
 <style>
 body {
   margin: 0;
